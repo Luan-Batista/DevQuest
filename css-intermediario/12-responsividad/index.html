@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsividade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <!--primeiro vamos fazer o cabeçalho usando o display inline-block no css, e usando a tag header no html-->
+    <header class="cabecalho">
+        <h1 class="logo">logo</h1>
+        <nav>
+            <li><a href="#">quem somos</a></li>
+            <li><a href="#">quem somos</a></li>
+            <li><a href="#">quem somos</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <section class="painel">
+            <div class="info">
+                <h1>Filme do Batman</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nemo distinctio nulla odio repellendus maiores illo natus quod? Ad repellendus dolor eveniet amet aspernatur consectetur provident ipsum inventore cum magnam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto necessitatibus fugiat repellendus odit excepturi soluta facilis, at temporibus eum voluptate non, cupiditate, ipsam incidunt earum dolore laudantium reprehenderit eligendi obcaecati!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate magni rem autem quam alias quia asperiores quisquam voluptates vitae corporis fugiat laudantium impedit incidunt dolores nisi est, ad, assumenda repellendus.</p>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="./imagens/batman-pequena.jpg" media="(max-width:600px)">
+
+                    <img src="imagens/batman.jpg" alt="">
+                </picture>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

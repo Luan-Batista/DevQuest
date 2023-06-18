@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com html</title>
+</head>
+<body>
+    <h1>Tabela</h1>
+
+    <table>
+        <Caption>Tabela de roupas</Caption>
+
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: red;">
+            <col span="2" style="background-color: wheat;"> 
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th colspan="" scope="colgroup">Roupa</th>
+                <th scope="colgroup">Cor</th>
+                <th scope="colgroup">Tamanho</th>
+                <th scope="colgroup">Preço</th>
+                <th scope="colgroup">Disponibilidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Camiseta</th>
+                    <td>preta</td>
+                    <td>M</td>
+                    <td>R$70,00</td>
+                    <td>Em estoque</td>
+                </tr>
+                <tr>
+                    <th scope="row">Calça Jeans</th>
+                    <td>preta</td>
+                    <td>M</td>
+                    <td>R$160,00</td>
+                    <td>Esgotado</td>
+                </tr>
+            
+            
+        </tbody>
+    </table>
+</body>
+</html>

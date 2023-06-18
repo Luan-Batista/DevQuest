@@ -1,0 +1,20 @@
+html{
+    background-color: darkgray;
+}
+
+body{
+    background-color: blueviolet;
+    width: 50%;
+}
+
+/* 1 em = 16 pixels */
+
+.pai{
+    background-color: cadetblue;
+    width: 50%;
+}
+
+.filha{
+    background-color: cyan;
+    width: 50%;
+}

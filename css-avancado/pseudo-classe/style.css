@@ -1,0 +1,27 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    width: 800px;
+    padding: 30px;
+}
+
+p:first-child{
+    color: black;
+}
+
+p:last-child{
+    color:blue;
+}
+
+li:nth-child(n+2):nth-child(-n+2){
+    color:green;
+}

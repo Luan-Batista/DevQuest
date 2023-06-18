@@ -1,0 +1,27 @@
+p{
+    color:coral;
+    font-size:24px ;
+    font-weight:bold;
+    padding:15px;
+    text-align: justify;
+}
+
+ .bg{
+    background-color: lightgreen;
+    background-image: url('./imagens/cat.png');
+} 
+
+.bg-image{
+    width: 513px;
+    height: 340px;
+}
+
+.bg-repeat{
+    background-repeat: no-repeat;  
+    height: 540px;  
+}
+
+.bg-size-cover{
+    background-size: cover;
+    height: 540px;
+}

@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.conteudo .titulo{
+    margin: 20px;
+    border-top: solid 1px rgba(128, 128,128, 1.1);
+}
+
+.conteudo .conteudo-text{
+    margin: 20px;
+    padding: 12px;
+    border: solid 1px rgb(128, 128, 128);
+    background-color: royalblue;
+}

@@ -1,0 +1,30 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    border:0 ;
+}
+
+body{
+    background-color: #F0F8FF;
+    text-align: justify;
+    margin: 35px;
+    padding:25px ;
+    font-family: sans-serif;
+}
+
+h1{
+    border-bottom: solid 1px gray ;
+}
+
+p{
+    margin-top:15px;
+    text-align: right;
+
+}
+
+.lista{
+     background-color: rgba(240, 230, 140, 0.8 );
+     max-width: 100%;
+     border: solid 1px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+}

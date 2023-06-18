@@ -1,0 +1,58 @@
+body{
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.quadrado{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+  
+}
+.elemento-centralizado1{
+    text-align: center;
+    line-height: 200px;
+}
+
+.conteiner{
+    background-color: #e1e2e1;
+    height: 300px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.elemento-centralizado-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    background-color: aquamarine;
+    width: 250px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+}
+
+.alinhado-margin-auto{
+    display: block;
+    margin: auto;
+}
+
+.alinhado-margin-auto2{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;   
+}
+
+.pai{
+    text-align: center;
+}

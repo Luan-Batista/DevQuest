@@ -1,0 +1,11 @@
+:root{
+    --cor-titulo: green;
+    --cor-padrao: purple;
+}
+
+h1{
+    color: var(--cor-titulo);
+}
+p{
+    color: var(--cor-padrao, blue);
+}

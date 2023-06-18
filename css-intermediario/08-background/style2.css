@@ -1,0 +1,48 @@
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+ }
+
+ body{
+    text-align: justify;
+    margin: 30px;
+
+ }
+
+ p{
+    padding: 20px;
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ .bg{
+    background-color: lightgreen;
+    background-image: url('./imagens/cat.png');
+ }
+
+ .bg-image{
+    width: 510px;
+    height: 340px;
+ }
+
+    /* caso queira repetir a imagem, podemos lembrar das aulas de matematica e repetir elas nos eixos x e y7, usando repeat-y ou x. */
+ .bg-repeat{
+    background-repeat: no-repeat;
+    height: 500px;
+ }
+
+ .bg-cover{
+    background-size: cover;
+    height: 540px;;
+ }
+
+ .bg-fixed{
+    background-attachment: fixed;
+ }
+
+ .bg-position{
+    background: lightgreen url('./imagens/cat.png') no-repeat bottom right;
+    height: 540px;
+ }

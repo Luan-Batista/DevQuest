@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 24px;
+}
+
+ul{
+    margin: 50px;
+}
+
+
+.em-bloco li{
+    background: aqua;
+    margin-bottom: 10px;
+    list-style: none;
+    width: 100px;
+}
+
+.em-linha li{
+    display: inline;
+    background: aqua;
+}
+
+.em-linha-em-bloco li{
+    display: inline-block;
+    background:aqua ;
+    width: 80px;
+}

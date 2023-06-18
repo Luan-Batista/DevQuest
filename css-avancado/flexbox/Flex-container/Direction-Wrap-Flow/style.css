@@ -1,0 +1,32 @@
+
+.container.direction{
+    display: flex;
+    flex-direction: row; /*usado para definir a direção dos itens da div*/
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 450px;
+    border: 0.1px solid ;
+}
+
+.container div{
+    background-color: aqua;
+    color:black;
+    width:100px;
+    height:100px;
+    margin: 10px;
+    border:0.1px solid ;
+}
+
+/* ja a ideis do flex flow, é aninhar o flex direction e o wrap tudo em ma coisa só */
+
+.container.flow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 450px;
+    width: 450px;
+    border: 0.1px solid ;
+}

@@ -1,0 +1,47 @@
+/*medium devices (tablets, less than 992px)*/
+@media (max-width:991.98px)
+{
+
+    .secao-com-texto{
+        padding: 153px 25px;
+    }
+    .secao-com-texto p {
+        width: 100%;
+    }
+
+}
+
+/*aqui iremos definir as quebras com uma definição para alguns padroes de tela*/
+/*small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px)
+{
+
+}
+
+@media (max-width:425px)
+{
+   .cabecalho .logo{
+    display: block;
+    margin: 0 auto;
+   }
+
+   .cabecalho nav{
+    position: static;
+    text-align: center;
+    width: 100%;
+    
+   }
+
+   .cabecalho nav ul li{
+    display: block;
+   }
+
+   .painel h2{
+    font-size:2.5rem ;
+   }
+
+   .contatos{
+    width: 100%;
+   }
+
+}

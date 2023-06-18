@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin: 20px;
+    padding: 15px;
+}
+
+ul li{
+    list-style: inside url('./imagens/icone.png');
+    background-color: antiquewhite;
+    border-left: solid 1px #000;
+    margin: 20px;
+    padding: 15px;
+}
+
+ol li{
+    list-style: inside url('./imagens/icone.png');
+    background-color: antiquewhite;
+    border-left: solid 1px #000;
+    margin: 20px;
+    padding: 15px;
+}
+
+ol li:hover{
+    background-color:rgb(223, 210, 210);   
+}

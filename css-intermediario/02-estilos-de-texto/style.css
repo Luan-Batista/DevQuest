@@ -1,0 +1,68 @@
+body{
+    margin: 20px;
+}
+
+.alinhado-esquerda{
+    text-align: left;
+}
+
+.alinhado-direita{
+    text-align: right;
+}
+
+.alinhado-centro{
+    text-align: center;
+}
+
+.alinhado-justificado{
+    text-align: justify;
+}
+
+.maiusculo{
+    text-transform:uppercase;
+}
+
+.minusculo{
+    text-transform: lowercase;
+}
+
+.capitalizado{
+    text-transform: capitalize;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.none{
+    text-decoration: none;
+}
+/* FUNDO */
+.fundo-alinhamento{
+    padding: 20px;
+    background-color: #c8e6c9;
+}
+
+.fundo-transform{
+    padding: 20px;
+    background-color: #c8e6c9;
+}
+
+.fundo-decoration{
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.altura-linha{
+    line-height: 40px;
+    background-color: rgb(175, 227, 245);
+    padding: 20px;
+}
+
+.sombra-texto{
+    text-shadow: 10px 15px 2px lightgray ;
+}

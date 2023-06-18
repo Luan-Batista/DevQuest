@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0 ;
+    border:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 25px;
+}
+
+.titulo{
+    border: solid 20px;
+    border-color: green cyan orange blueviolet;
+}
+
+.conteudo .conteudo-text{
+    margin: 35px;
+    padding:20px 9px;
+    background-color:aquamarine;
+    border: solid 1px;
+}
