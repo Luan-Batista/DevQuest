@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+
+}
+
+.menu{
+    display: flex;
+    gap: 20px; 
+}
+
+.menu li{
+    padding: 10px;
+}
+
+.menu li:hover{
+    background: rgba(188, 192, 206, 0.538);
+    border-radius: 5px;
+    
+}
+
+
+
