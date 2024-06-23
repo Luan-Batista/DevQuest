@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtendo tamanho de um array</title>
+</head>
+<body>
+    <h1>Elementos do array</h1>
+    <ol id="lista1"></ol>
+
+    <ul id="lista2"></ul>
+    <script>
+        let materiais = ['colher de pedreiro', 'betoneira', 'trena'];
+        let produtos = ['café','arroz','macarrão','feijão','açucar'];
+        //Função para gerar os itens da lista
+
+        function gerarLista(materiais, listaId) {
+            const lista = document.getElementById(listaId); // Obter a referência à lista pelo ID
+
+            // Limpar a lista antes de adicionar os nomes
+            lista.innerHTML = '';
+
+            // Adicionar cada nome como um item de lista à lista
+            materiais.forEach(nome => {
+                const li = document.createElement('li'); //Criar um elemento de lista
+                li.textContent = nome + " - " + " quantidade de caracteres " + nome.length ; //Definir o texto do elemento de lista como o nome atual
+                lista.appendChild(li); //Adicionar o elemento de lista à lista
+            });
+        }
+
+        function gerarListaDeCompras(produtos,listaId){
+            const lista = document.getElementById(listaId); // Obter a referência à lista pelo ID
+
+            // Limpar a lista antes de adicionar os nomes
+            lista.innerHTML = '';
+
+            // Adicionar cada nome como um item de lista à lista
+            materiais.forEach(nome => {
+            const li = document.createElement('li'); //Criar um elemento de lista
+            li.textContent = nome ; //Definir o texto do elemento de lista como o nome atual
+            lista.appendChild(li); //Adicionar o elemento de lista à lista
+            });
+        }
+
+        // Chamar a função para gerar as listas
+        gerarListaDeCompras(produtos, 'lista2');
+        gerarLista(materiais    ,'lista1');
+    </script>
+</body>
+</html>
