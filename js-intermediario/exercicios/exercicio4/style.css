@@ -1,0 +1,28 @@
+.corVerde{
+    border: 3px, solid, greenyellow;
+}
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+input{
+    border: none;
+    outline: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: gray ;
+    justify-content: space-evenly;
+    gap: 10px;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+}
